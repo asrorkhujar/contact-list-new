@@ -8,7 +8,7 @@ var elNewContactForm = document.querySelector('.js-new-contact-form');
 var elContacts = document.querySelector('.contacts');
 var elContactsList = elContacts.querySelector('.contacts__list');
 
-var isNumberExist = elNewContactForm.querySelector('.already-have-phone');
+var isNumberExist = elNewContactForm.querySelector('.already-exists-phone');
 
 // Form bo'lsa
 if (elNewContactForm) {
